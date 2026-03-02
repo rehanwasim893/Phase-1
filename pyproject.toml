@@ -5,7 +5,6 @@ name = "phase-1"
 version = "0.1.0"
 description = "A Python project  Phase 1 of hackathon-2"
 readme = "README.md"
-authors = [{name = "Khizra khan", email = "khizraimran26@gmail.com"}]
 license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
