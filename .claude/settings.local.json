@@ -11,7 +11,9 @@
       "Bash(pip install:*)",
       "Bash(xcopy D:\\\\IT Classes\\\\Phase-1:*)",
       "Bash(robocopy D:\\\\IT Classes\\\\Phase-1:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(git add:*)"
     ]
   }
 }
