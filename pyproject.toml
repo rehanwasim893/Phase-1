@@ -1,0 +1,25 @@
+
+
+[project]
+name = "phase-1"
+version = "0.1.0"
+description = "A Python project  Phase 1 of hackathon-2"
+readme = "README.md"
+authors = [{name = "Khizra khan", email = "khizraimran26@gmail.com"}]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "fastapi>=0.68.0",
+    "uvicorn[standard]>=0.15.0",
+    "python-multipart>=0.0.5",
+    "pytest>=6.2.4",
+    "httpx>=0.20.0",
+    "ruff>=0.1.6",
+    "black>=25.12.0"
+]
+

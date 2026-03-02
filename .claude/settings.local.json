@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv init)",
+      "Bash(python main.py)",
+      "Bash(python -c \"\nfrom models import Todo\nfrom storage import InMemoryStorage\nfrom service import TodoService\nfrom cli import TodoCLI\n\n# Test basic functionality\nstorage = InMemoryStorage\\(\\)\nservice = TodoService\\(storage\\)\n\n# Add a test todo\ntodo = service.add_todo\\('Test todo', 'This is a test'\\)\nprint\\(f'Added todo: {todo.id}, {todo.title}'\\)\n\n# Get all todos\ntodos = service.get_all_todos\\(\\)\nprint\\(f'Total todos: {len\\(todos\\)}'\\)\n\n# Mark as complete\nupdated = service.mark_complete\\(todo.id, True\\)\nprint\\(f'Marked as complete: {updated.completed}'\\)\n\")",
+      "Bash(powershell:*)",
+      "Bash(python:*)",
+      "Bash(mkdir:*)",
+      "Bash(rm:*)",
+      "Bash(pip install:*)"
+    ]
+  }
+}

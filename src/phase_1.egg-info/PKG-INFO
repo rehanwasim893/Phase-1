@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: phase-1
+Version: 0.1.0
+Summary: A Python project  Phase 1 of hackathon-2
+Author-email: Khizra khan <khizraimran26@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.68.0
+Requires-Dist: uvicorn[standard]>=0.15.0
+Requires-Dist: python-multipart>=0.0.5
+Requires-Dist: pytest>=6.2.4
+Requires-Dist: httpx>=0.20.0
+Requires-Dist: ruff>=0.1.6
+Requires-Dist: black>=25.12.0
+
+# Todo Application
+
+A simple in-memory todo console application designed for beginner Python developers and students learning CLI apps and clean code.
